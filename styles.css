@@ -1,0 +1,234 @@
+/* Ensure proper sizing */
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: Gainsboro;
+  }
+
+/* flex-container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the interface on the screen */ 
+    align-items: center;
+  }
+
+/* Main content */
+.main {
+    display: flex;
+    flex-basis: 70vh;
+    background-color: white; /* White background color */
+    border: 2px solid #2d2d2d; /* Black border */
+    border-radius: 25px;
+    flex-direction:column;
+    min-width: 480px;
+    min-height: 680px;
+    max-width: 480px;
+    max-height: 680px;
+    background-image: url("./img/JUVA_Background_Faded.png");
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    background-size: contain;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    row-gap: 100px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    z-index: 1;
+  }
+
+  .back {
+    margin-right: 77px;
+    background-color: transparent;
+    border:transparent;
+  }
+
+    img.backbutton {
+    height: 60px;
+    width: 105px;
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+  img.backbutton:hover {opacity: 0.6}
+
+  img.homebutton {
+    height: 60px;
+    width: 60px;
+    flex-shrink: 3; /* default 1 */
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  img.homebutton:hover {opacity: 0.6}
+
+  .home {
+    margin-right: 200px;
+    background-color: transparent;
+    border:transparent;
+  }
+
+  .scroll-content {
+    overflow-y: scroll;
+    height: 80vh;
+  }
+
+  .static-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    row-gap: 100px;
+  }
+
+  /* Custom Menu CSS */
+  .square {
+    border-radius: 15px;
+    height: 350px;
+    width: 400px;
+    background-color: #343088;
+    opacity: 0.8;
+    text-align: center;
+  }
+
+  hr.text {
+    width: 75%;
+    height: 2.5px;
+    background-color: white;
+  }
+
+  .vertical-top {
+    border-left: 4px solid white;
+    height: 215px;
+    position:relative;
+    left: 5%;
+    top: -84%;
+}
+
+.vertical-bottom {
+  border-left: 4px solid white;
+  height: 215px;
+  position:relative;
+  left: 95%;
+  bottom: 115%;
+}
+
+hr.bottom {
+  width: 50%;
+  height: 4px;
+  background-color: white;
+  position: relative;
+  left: 21%;
+  top: -118%;
+}
+
+hr.top {
+  width: 50%;
+  height: 4px;
+  background-color: white;
+  position: relative;
+  left: -20%;
+  top: -213%;
+}
+
+/* Pay with Menus */
+.rectangle {
+  border-radius: 25px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 240px;
+  width: 477px;
+  background-color: #FB973B;
+  opacity: 0.8;
+  text-align: center;
+  position: relative;
+  top:-89px;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 4px;
+  border-color: #000000c4;
+}
+
+.main2 {
+  display: flex;
+  flex-basis: 70vh;
+  height: 97vh;
+  background-color: white; /* White background color */
+  border: 2px solid #2d2d2d; /* Black border */
+  border-radius: 25px;
+  flex-direction:column;
+  padding: 5px;
+  min-width:480px;
+  min-height: 680px;
+  max-width: 480px;
+  max-height: 680px;
+  background-repeat: no-repeat;
+  background-position: center; /* Center the image */
+  background-size: contain;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.backbutton {
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  bottom: -24%;
+  left: 7%;
+  border-radius: 25px;
+}
+
+/* Payment Options Buttons */
+.paybutton {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  top: 60%;
+  border-radius: 25px;
+}
+.buttonpay {
+  background-color: #FB973B; 
+  color: black; 
+  border: 2px solid black;
+  width: 83%;
+}
+.buttonpay:hover {
+  background-color: #FB973B;
+  color: white;
+}
+
+/* Thank You Screen Styles */ 
+.bottomrectangle { 
+  border-radius: 25px; 
+  height: 100px; 
+  width: 477px; 
+  background-color: #FB973B; 
+  opacity: 1; 
+  text-align: center; 
+  position: relative; 
+  bottom:35px; 
+} 
