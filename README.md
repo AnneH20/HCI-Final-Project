@@ -4,4 +4,4 @@ No installation is required for this project and there are no dependencies. Simp
 
 Works in Google Chrome, Safari, and Firefox browsers
 
-Figma Prototype link is included under the file "Figma Prototype Link"
+Figma Prototype link is included under the file "FigmaPrototypeLink.md"
