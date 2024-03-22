@@ -1,6 +1,6 @@
 Project for Human Computer Interaction - Front-End implementation of JUVA juice machine interface.
 
-No installation is required for this project and there are no dependencies. Simply click the github-pages link on the far-right side bar and click "View Deployment"
+No installation is required for this project and there are no dependencies. Simply click this link to view the project! [https://anneh20.github.io/HCI-Final-Project/](url)
 
 Works in Google Chrome, Safari, and Firefox browsers
 
