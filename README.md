@@ -1,5 +1,5 @@
 # Final Project for Human-Computer Interaction
-### Front-End Implementation of JUVA juice machine interface
+## Front-End Implementation of JUVA juice machine interface
 
 Works in Google Chrome, Safari, and Firefox browsers
 
