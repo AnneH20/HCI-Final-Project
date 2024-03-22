@@ -4,4 +4,4 @@ No installation is required for this project and there are no dependencies. Simp
 
 Works in Google Chrome, Safari, and Firefox browsers
 
-Figma Prototype link is included under the file "FigmaPrototypeLink.md"
+Figma Prototype link is located at this link! https://www.figma.com/file/I6cieWvTh6pxxGinngWwzy/JUVA-Prototype?node-id=0%3A1&t=WIifjo0WCC8KHgZR-1
